@@ -1,14 +1,14 @@
 package com.itheima.topline.view;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
-
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
-
 import com.itheima.topline.adapter.WrapAdapter;
 import java.util.ArrayList;
+
 public class WrapRecyclerView extends RecyclerView {
     private WrapAdapter mWrapAdapter;
     private boolean shouldAdjustSpanSize;

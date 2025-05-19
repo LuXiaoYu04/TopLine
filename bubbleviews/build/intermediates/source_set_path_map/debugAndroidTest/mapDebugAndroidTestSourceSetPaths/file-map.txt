@@ -1,0 +1,5 @@
+com.itheima.topline.bubbleviews.test.bubbleviews-androidTest-0 D:\Project\TopLine\bubbleviews\build\generated\res\resValues\androidTest\debug
+com.itheima.topline.bubbleviews.test.bubbleviews-mergeDebugAndroidTestResources-1 D:\Project\TopLine\bubbleviews\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.itheima.topline.bubbleviews.test.bubbleviews-mergeDebugAndroidTestResources-2 D:\Project\TopLine\bubbleviews\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.itheima.topline.bubbleviews.test.bubbleviews-debugAndroidTest-3 D:\Project\TopLine\bubbleviews\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources
+com.itheima.topline.bubbleviews.test.bubbleviews-debug-4 D:\Project\TopLine\bubbleviews\build\intermediates\packaged_res\debug\packageDebugResources

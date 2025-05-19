@@ -7,4 +7,19 @@
     <color name="rdTextColorPress">#eb413d</color>
     <color name="rb_text_check">#ff5200</color>
     <color name="video_detail_text_color">#333333</color>
+    <color name="starTextColor">#999999</color>
+    <color name="divider_line_color">#ebebeb</color>
+    <color name="register_bg_color">#f6f6f6</color>
+    <color name="register_hint_text_color">#a3a3a3</color>
+    <color name="register_btn_color">#d6d7d7</color>
+    <color name="constellation_info_color">#7f8080</color>
+    <color name="constellation_info_bg_color">#f7f2fd</color>
+    <color name="rating_bar_color">#702ec4</color>
+    <color name="constellation_info_color2">#454545</color>
+    <color name="whole_text_color">#7fbee4</color>
+    <color name="love_text_color">#ff8cb4</color>
+    <color name="career_text_color">#b29ddd</color>
+    <color name="money_text_color">#f0c062</color>
+    <color name="health_text_color">#9cd47a</color>
+    <color name="choose_constellation_title_color">#8bdcea</color>
 </resources>

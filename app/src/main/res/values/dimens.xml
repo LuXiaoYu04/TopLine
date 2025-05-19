@@ -6,4 +6,13 @@
     <dimen name="popmenu_width">100dp</dimen>
     <dimen name="popmenu_yoff">5dp</dimen>
     <dimen name="popmenu_height">60dp</dimen>
+
+
+    <dimen name="star_img_height">25dp</dimen>
+    <dimen name="star_text_size">14sp</dimen>
+    <dimen name="image_width">120dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="avatar_final_size">40dp</dimen>
+    <dimen name="avatar_final_x">8dp</dimen>
+    <dimen name="toolbar_height">56dp</dimen>
 </resources>

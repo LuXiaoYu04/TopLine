@@ -1,0 +1,26 @@
+R_DEF: Internal format may change without notice
+local
+attr? animLength
+attr? animLengthRand
+attr? anim_duration
+attr? bezierFactor
+attr? heart_height
+attr? heart_width
+attr? initX
+attr? initY
+attr? xPointFactor
+attr? xRand
+dimen heart_anim_bezier_x_rand
+dimen heart_anim_init_x
+dimen heart_anim_init_y
+dimen heart_anim_length
+dimen heart_anim_length_rand
+dimen heart_anim_x_point_factor
+dimen heart_size_height
+dimen heart_size_width
+drawable heart
+drawable heart_border
+integer anim_duration
+integer heart_anim_bezier_factor
+string app_name
+styleable HeartLayout initX initY xRand animLengthRand xPointFactor animLength heart_width heart_height bezierFactor anim_duration

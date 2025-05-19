@@ -6,6 +6,7 @@ import com.itheima.topline.bean.ConstellationBean;
 import com.itheima.topline.bean.NewsBean;
 import com.itheima.topline.bean.PythonBean;
 import com.itheima.topline.bean.VideoBean;
+
 import java.lang.reflect.Type;
 import java.util.List;
 
@@ -48,7 +49,7 @@ public class JsonParse {
         List<PythonBean> pythonList = gson.fromJson(json, listType);
         return pythonList;
     }
-    public List<VideoBean> getVideoList(String json) {
+   public List<VideoBean> getVideoList(String json) {
         //使用gson库解析JSON数据
         Gson gson = new Gson();
         //创建一个TypeToken的匿名子类对象，并调用对象的getType()方法

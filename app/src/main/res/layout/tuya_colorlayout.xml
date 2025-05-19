@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollviewcolor"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="19.33dp"
+    android:layout_marginRight="19.33dp"
+    android:fadingEdge="none"
+    android:scrollbars="none">
+    <com.itheima.topline.view.MyHorizontalScrollView
+        android:id="@+id/HorizontalScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button01"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#140c09" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dip"
+                    android:background="#fe0000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button03"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#ff00ea" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview04"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button04"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#011eff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#00ccff" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#00641c" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview07"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button07"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#9bff69" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview08"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button08"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#f0ff00" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview09"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button09"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#ff9c00" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#ff5090" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#9e9e9e" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="42.67dp"
+                android:layout_height="42.67dp"
+                android:layout_marginLeft="4dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorinit" />
+                <ImageView
+                    android:id="@+id/imageview12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/tuya_colorselected" />
+                <Button
+                    android:id="@+id/button12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_margin="1dp"
+                    android:background="#f5f5f5" />
+            </RelativeLayout>
+        </LinearLayout>
+    </com.itheima.topline.view.MyHorizontalScrollView>
+</ScrollView>

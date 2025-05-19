@@ -1,0 +1,38 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.itheima.topline.bubbleviews.test" >
+4
+5    <uses-sdk
+5-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:5:15-41
+7        android:targetSdkVersion="34" />
+7-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:5:42-71
+8
+9    <instrumentation
+9-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:11:5-15:86
+10        android:name="android.test.InstrumentationTestRunner"
+10-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:11:22-75
+11        android:functionalTest="false"
+11-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:14:22-52
+12        android:handleProfiling="false"
+12-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:13:22-53
+13        android:label="Tests for com.itheima.topline.bubbleviews.test"
+13-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:15:22-84
+14        android:targetPackage="com.itheima.topline.bubbleviews.test" />
+14-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:12:22-82
+15
+16    <application
+16-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:7:5-9:19
+17        android:allowBackup="true"
+17-->[:bubbleviews] D:\Project\TopLine\bubbleviews\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:8:9-35
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:label="@string/app_name" >
+20-->[:bubbleviews] D:\Project\TopLine\bubbleviews\build\intermediates\merged_manifest\debug\processDebugManifest\AndroidManifest.xml:9:9-41
+21        <uses-library android:name="android.test.runner" />
+21-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:8:9-60
+21-->D:\Project\TopLine\bubbleviews\build\intermediates\tmp\manifest\androidTest\debug\tempFile1ProcessTestManifest16563946955759461955.xml:8:23-57
+22    </application>
+23
+24</manifest>

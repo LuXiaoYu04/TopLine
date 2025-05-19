@@ -1,0 +1,37 @@
+apply plugin: 'com.android.library'
+
+android {
+    namespace 'com.itheima.topline.bubbleviews'
+    compileSdkVersion 34 // 更新为与 build.gradle.kts 中一致
+
+    defaultConfig {
+        minSdkVersion 24 // 更新为与 build.gradle.kts 中一致
+        targetSdkVersion 34 // 更新为与 build.gradle.kts 中一致
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    // 添加对 libs 目录的支持
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    // 将 compile 替换为 implementation
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

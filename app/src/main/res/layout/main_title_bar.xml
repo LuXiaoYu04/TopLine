@@ -32,4 +32,15 @@
         android:layout_marginRight="15dp"
         android:src="@drawable/collection_normal"
         android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="保存"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+        android:visibility="gone" />
 </RelativeLayout>

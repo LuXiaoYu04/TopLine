@@ -5,6 +5,44 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 允许获取粗略位置，若用GPS实现定位小蓝点功能则必选 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- 如果需要精确位置（例如基于 GPS 的定位），可以添加此权限 -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- 允许获取网络状态，用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- 允许获取 Wi-Fi 网络信息，用于网络定位 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <!-- 允许写入外部存储（仅适用于 Android 10 及以下） -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+
+    <!-- 允许读取外部存储（仅适用于 Android 10 及以下） -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+
+    <!-- 允许访问设备的媒体文件（Android 11 及以上推荐使用分区存储） -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO" />
+
+    <!-- 允许写入设备缓存，用于问题排查 -->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <!-- 允许读取设备信息（如 IMEI、序列号等），需要额外声明 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 允许更改 Wi-Fi 状态 -->
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+
 
     <application
         android:name=".TopLineApplication"
@@ -18,12 +56,21 @@
         android:theme="@style/Theme.AppCompat.NoActionBar"
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
+
+
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="a7ebdfa31ec0d733d8eb0223e88c6164" />
+        <activity android:name=".MainActivity" />
         <activity
-            android:name=".activity.VideoDetailActivity"
-            android:configChanges="screenSize|keyboardHidden|orientation" />
+            android:name=".activity.NewsDetailActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.PythonActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
         <activity
             android:name=".activity.AndroidCountActivity"
             android:theme="@style/AppTheme.TransparentActivity" />
@@ -31,12 +78,46 @@
             android:name=".activity.JavaCountActivity"
             android:theme="@style/AppTheme.TransparentActivity" />
         <activity
-            android:name=".activity.PythonActivity"
+            android:name=".activity.VideoDetailActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name=".activity.RegisterActivity"
             android:theme="@style/AppTheme.TransparentActivity" />
         <activity
-            android:name=".activity.NewsDetailActivity"
+            android:name=".activity.LoginActivity"
             android:theme="@style/AppTheme.TransparentActivity" />
-        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activity.UserInfoActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.ChangeUserInfoActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.CalendarActivity"
+            android:theme="@style/AppTheme.NoTitle.Dialog" />
+        <activity
+            android:name=".activity.ConstellationActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.ChooseConstellationActivity"
+            android:theme="@style/AppTheme.NoTitle.Dialog" />
+        <activity
+            android:name=".activity.ScrawActivity"
+            android:theme="@style/AppTheme.NoTitle.Dialog" />
+        <activity
+            android:name=".activity.MapActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity android:name=".activity.CollectionActivity" />
+        <activity
+            android:name=".activity.SettingActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.ModifyPswActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
+        <activity
+            android:name=".activity.FindPswActivity"
+            android:theme="@style/AppTheme.TransparentActivity" />
         <activity
             android:name=".activity.SplashActivity"
             android:exported="true">
